@@ -16,12 +16,14 @@
   },
   "scripts": {
     "lint": "coffeelint scripts -f coffeelint.json",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "postpublish": "greenkeeper-postpublish"
   },
   "engines": {
     "node": "0.10.x"
   },
   "devDependencies": {
-    "coffeelint": "^1.15.7"
+    "coffeelint": "^1.15.7",
+    "greenkeeper-postpublish": "^1.0.0"
   }
 }
