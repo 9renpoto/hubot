@@ -1,27 +1,28 @@
 {
   "name": "@9renpoto/hubot",
-  "version": "0.0.0",
-  "private": true,
-  "author": "Keisuke Kan <9renpoto@gmail.com>",
   "description": "A simple helpful robot for your Company",
+  "version": "0.0.0",
+  "author": "Keisuke Kan <9renpoto@gmail.com>",
   "dependencies": {
     "hubot": "^2.19.0",
-    "hubot-diagnostics": "0.0.1",
+    "hubot-diagnostics": "^0.0.1",
     "hubot-help": "^0.2.0",
     "hubot-heroku-keepalive": "^1.0.2",
-    "hubot-redis-brain": "0.0.3",
+    "hubot-redis-brain": "^0.0.3",
     "hubot-slack": "^4.0.0"
-  },
-  "scripts": {
-    "lint": "coffeelint scripts -f coffeelint.json",
-    "test": "npm run lint",
-    "postpublish": "greenkeeper-postpublish"
-  },
-  "engines": {
-    "node": "0.10.x"
   },
   "devDependencies": {
     "coffeelint": "^1.15.7",
     "greenkeeper-postpublish": "^1.0.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "main": "./bin/hubot",
+  "private": true,
+  "scripts": {
+    "lint": "coffeelint scripts -f coffeelint.json",
+    "postpublish": "greenkeeper-postpublish",
+    "test": "npm run lint"
   }
 }
