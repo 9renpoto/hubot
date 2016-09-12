@@ -218,6 +218,6 @@ you're having issues.
 [david-dm-image]: https://david-dm.org/9renpoto/hubot.svg
 [david-dm-url]: https://david-dm.org/9renpoto/hubot
 [dev-david-dm-image]: https://david-dm.org/9renpoto/hubot/dev-status.svg
-[dev-david-dm-url]: https://david-dm.org/9renpoto/hubot#info=devDependencies
+[dev-david-dm-url]: https://david-dm.org/9renpoto/hubot?type=dev
 [travis-url]: https://travis-ci.org/9renpoto/hubot
 [travis-image]:  https://travis-ci.org/9renpoto/hubot.svg?branch=master
