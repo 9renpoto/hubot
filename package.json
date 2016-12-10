@@ -6,14 +6,14 @@
   "dependencies": {
     "hubot": "^2.19.0",
     "hubot-diagnostics": "^0.0.1",
+    "hubot-google-images": "^0.2.6",
     "hubot-help": "^0.2.0",
     "hubot-heroku-keepalive": "^1.0.2",
-    "hubot-redis-brain": "^0.0.3",
-    "hubot-slack": "^4.0.0"
+    "hubot-slack": "^4.2.2"
   },
   "devDependencies": {
-    "coffeelint": "^1.15.7",
-    "greenkeeper-postpublish": "^1.0.0"
+    "coffeelint": "^1.16.0",
+    "greenkeeper-postpublish": "^1.0.1"
   },
   "engines": {
     "node": ">= 4"
