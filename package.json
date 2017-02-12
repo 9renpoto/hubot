@@ -13,8 +13,7 @@
     "hubot-slack": "^4.2.2"
   },
   "devDependencies": {
-    "coffeelint": "^1.16.0",
-    "greenkeeper-postpublish": "^1.0.1"
+    "coffeelint": "^1.16.0"
   },
   "engines": {
     "node": ">= 4"
@@ -23,7 +22,6 @@
   "private": true,
   "scripts": {
     "lint": "coffeelint scripts -f coffeelint.json",
-    "postpublish": "greenkeeper-postpublish",
     "test": "npm run lint"
   }
 }
