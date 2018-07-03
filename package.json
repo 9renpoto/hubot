@@ -10,11 +10,11 @@
     "hubot-help": "0.2.2",
     "hubot-heroku-keepalive": "1.0.3",
     "hubot-redis-brain": "0.0.4",
-    "hubot-slack": "4.5.1"
+    "hubot-slack": "4.5.1",
+    "snyk": "^1.88.0"
   },
   "devDependencies": {
-    "coffeelint": "2.1.0",
-    "snyk": "1.88.0"
+    "coffeelint": "2.1.0"
   },
   "engines": {
     "node": ">= 4"
@@ -25,7 +25,8 @@
     "lint": "coffeelint scripts -f coffeelint.json",
     "test": "npm run lint",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect"
   },
   "snyk": true
 }
