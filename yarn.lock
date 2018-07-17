@@ -945,9 +945,9 @@ hubot-redis-brain@0.0.4:
   dependencies:
     redis "~2.6.x"
 
-hubot-slack@4.5.2:
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/hubot-slack/-/hubot-slack-4.5.2.tgz#6d03d3b6c4158087031f18d4eedc7ee63ce92fb9"
+hubot-slack@4.5.3:
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/hubot-slack/-/hubot-slack-4.5.3.tgz#6f160bc5e8ba4e14d2c472972f0b3bcc4da156cf"
   dependencies:
     "@slack/client" "3.16.1-sec"
     bluebird "^3.5.1"
