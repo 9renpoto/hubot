@@ -808,9 +808,9 @@ hubot-slack@4.5.3:
     bluebird "^3.5.1"
     lodash "^3.10.1"
 
-hubot@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/hubot/-/hubot-3.1.0.tgz#53ebc84611c5fdf9525edb79f6d1cc93525a7c5c"
+hubot@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/hubot/-/hubot-3.1.1.tgz#c6e8ac10e3d7001043d064c52b6e946afd7ea749"
   dependencies:
     async ">=0.1.0 <1.0.0"
     chalk "^1.0.0"
