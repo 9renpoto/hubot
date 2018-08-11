@@ -800,13 +800,13 @@ hubot-redis-brain@0.0.4:
   dependencies:
     redis "~2.6.x"
 
-hubot-slack@4.5.3:
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/hubot-slack/-/hubot-slack-4.5.3.tgz#6f160bc5e8ba4e14d2c472972f0b3bcc4da156cf"
+hubot-slack@4.5.4:
+  version "4.5.4"
+  resolved "https://registry.yarnpkg.com/hubot-slack/-/hubot-slack-4.5.4.tgz#c8734c58b82239417fcb21e31e63abe7a2292cd8"
   dependencies:
     "@slack/client" "3.16.1-sec"
     bluebird "^3.5.1"
-    lodash "^3.10.1"
+    lodash "^4.17.10"
 
 hubot@3.1.1:
   version "3.1.1"
@@ -1041,10 +1041,6 @@ lodash.get@^4.4.2:
 lodash.set@^4.3.2:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/lodash.set/-/lodash.set-4.3.2.tgz#d8757b1da807dde24816b0d6a84bea1a76230b23"
-
-lodash@^3.10.1:
-  version "3.10.1"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
 lodash@^4.11.1, lodash@^4.3.0:
   version "4.17.5"
