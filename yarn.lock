@@ -787,9 +787,9 @@ hubot-google-images@0.2.7:
   version "0.2.7"
   resolved "https://registry.yarnpkg.com/hubot-google-images/-/hubot-google-images-0.2.7.tgz#a8a1f9094d76830bf1931770888fab0dc0c11a4d"
 
-hubot-help@0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/hubot-help/-/hubot-help-0.2.2.tgz#cea17e782ce776b743f65393935b3430c2e8197c"
+hubot-help@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/hubot-help/-/hubot-help-1.0.1.tgz#0a678e551d67c4317e222ff294b9583b8322fce7"
 
 hubot-heroku-keepalive@1.0.3:
   version "1.0.3"
