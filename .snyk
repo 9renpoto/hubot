@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.13.3
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -31,3 +31,6 @@ patch:
   'npm:ws:20160920':
     - hubot-slack > @slack/client > ws:
         patched: '2018-10-11T04:26:34.313Z'
+  'npm:extend:20180424':
+    - hubot-slack > @slack/client > request > extend:
+        patched: '2019-01-03T04:21:30.209Z'
