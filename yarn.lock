@@ -304,10 +304,6 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
-coffee-script@1.6.3:
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/coffee-script/-/coffee-script-1.6.3.tgz#6355d32cf1b04cdff6b484e5e711782b2f0c39be"
-
 coffeelint@2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/coffeelint/-/coffeelint-2.1.0.tgz#af65df3634e999d9ac01480736c36d3cd2f5dad8"
@@ -318,6 +314,10 @@ coffeelint@2.1.0:
     optimist "^0.6.1"
     resolve "^0.6.3"
     strip-json-comments "^1.0.2"
+
+coffeescript@1.6.3:
+  version "1.6.3"
+  resolved "https://registry.yarnpkg.com/coffeescript/-/coffeescript-1.6.3.tgz#41749750c621a6553c7c03818a5384bb24c30541"
 
 coffeescript@^2.1.0:
   version "2.2.2"
@@ -913,14 +913,14 @@ hubot-slack@4.6.0:
     bluebird "^3.5.1"
     lodash "^4.17.10"
 
-hubot@3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/hubot/-/hubot-3.1.1.tgz#c6e8ac10e3d7001043d064c52b6e946afd7ea749"
+hubot@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/hubot/-/hubot-3.2.0.tgz#53d37bfd66e6aaa6826894b6ee6a8567c1e4c427"
   dependencies:
     async ">=0.1.0 <1.0.0"
     chalk "^1.0.0"
     cline "^0.8.2"
-    coffee-script "1.6.3"
+    coffeescript "1.6.3"
     connect-multiparty "^2.1.1"
     express "^4.16.3"
     log "1.4.0"
