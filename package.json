@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "coffeelint": "2.1.0",
-    "snyk": "1.122.4"
+    "snyk": "1.123.0"
   },
   "engines": {
     "node": ">= 4"
